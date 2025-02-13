@@ -61,7 +61,7 @@ router.get('/:id', (req, res) => {
     res.json(post);
 });
 
-// store
+//  store
 router.post('/', (req, res) => {
     res.send('Creazione nuovo post');
 });
